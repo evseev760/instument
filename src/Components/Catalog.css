@@ -1,0 +1,148 @@
+
+.menu{
+    background-color: #2d2d2d;
+    color: white;
+    padding-left: 4%;
+    padding-top: 10px;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+.catalog_under_cat{
+    cursor: pointer !important;
+    overflow: hidden;
+    text-overflow: ellipsis !important; 
+}
+.catalog_under_cat span{
+    width: 100% !important;
+    text-overflow: ellipsis !important; 
+}
+.animated-tag .row a {
+    opacity: 0;
+    transition: opacity 1.5s ease;
+}
+.animated .row a {
+    opacity: 1;
+  }
+.animated-tag .row  {
+    height:0px;
+    transition: height 0.4s ease;
+    
+}
+#catalog span{
+    overflow: hidden;
+}
+.animated .row  {
+    height: 560px;
+  }
+.menu :hover{
+    background-color: #434343;
+    transition: 0.4s;
+}
+.menu div{
+        background-color: none;
+    width: 100%;
+    line-height: 50px;
+    font-weight: 100;
+    padding-left: 10px;
+    font-size: 18px;
+    overflow: hidden; 
+    text-overflow: ellipsis !important; 
+}
+#dublString{
+    line-height: 30px;
+}
+h4{
+    font-weight: 200
+}
+.catCont{
+    background-color: #212121;
+}
+.menu a{
+    width: 100%;
+    color: white;
+    text-decoration: none;
+
+}
+.sec_caption h4{
+    margin: 25px 0 25px 0;
+}
+.sec_caption a{
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+.sec_caption span{
+    font-weight: 200;
+    line-height: 2.1 !important;
+}
+hr{
+    border-top: 1px solid #7b7b7b; 
+    margin-right: 20px;
+}
+.sec_caption span{
+    color: #bcbcbc;
+}
+.sec_caption .row :hover{
+    color: #bcbcbc;
+    text-decoration: none;
+    background-color: #2d2d2d
+}
+@media screen and (max-width: 618px){
+    .menu{
+        background-color: #2d2d2d;
+        color: white;
+        padding-left: 3%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .animated-tag .row a {
+        opacity: 0;
+        transition: opacity 1.5s ease;
+    }
+    .animated .row a {
+        opacity: 1;
+      }
+    .animated-tag .row  {
+        height:0px;
+        transition: height 0.4s ease;
+        
+    }
+    .animated .row  {
+        height: 350px;
+      }
+    .menu :hover{
+        background-color: #434343;
+        transition: all 0.3s;
+    }
+    .menu div{
+        background-color: none;
+        width: 100%;
+        line-height: 30px;
+        font-weight: 100;
+        padding-left: 6px;
+        font-size: 12px;
+    }
+    
+    .catCont{
+        background-color: #212121;
+    }
+    .menu a{
+        width: 100%;
+        color: white;
+        text-decoration: none;
+        
+    }  
+}
+.fixed_kat{
+    transition: all 0.2s;
+    position: fixed !important;
+    top: 0 !important;
+    left: 0;
+    height: 50px !important;
+    margin: 0 !important;
+    z-index: 200;
+    background-color: #373737 !important;
+    border: 0;
+    color: #373737 !important;
+    width: 50px !important;
+    overflow: hidden;
+}

@@ -1,0 +1,69 @@
+#suppliers{
+    background-color: #141414;
+}
+.paragraf{
+    color: white;
+    padding-left: 7vw;
+    padding-right: 7vw;
+    padding-bottom: 15px;
+    padding-top: 20px;
+    
+}
+#suppliers h5{
+    color: #373737;
+    font-weight:bold;
+}
+.supplier{
+    height: 100px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    text-align: center;
+    line-height: 100px;
+}
+.supplier img{
+    margin: 0 auto;
+    margin-top: 0 auto;
+    margin-bottom: 0 auto;
+    vertical-align: middle;
+    width: 150px;
+    max-height: 65px;
+}
+.supplier :hover{
+    filter: grayscale(0); 
+
+    
+}
+.paragraf a{
+    color: #d8d8d8;
+}
+.paragraf a :hover{
+    color: bisque;
+    text-decoration: none;
+}
+@media screen and (min-width: 1105px){
+    #suppliers p{
+        font-size: 32px;
+        padding-top: 4vw;
+        padding-bottom: 4vw; 
+        color: #d8d8d8;
+    }
+}
+@media screen and (max-width: 530px){
+    #suppliers p{
+        font-size: 15px;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        color: #d8d8d8;
+    }
+}
+@media screen and (min-width: 531px) and (max-width: 1104px){
+    #suppliers p{
+        font-size: 20px;
+        padding-top: 4vw;
+        padding-bottom: 4vw;
+        color: #d8d8d8;
+    }
+}
+.cont{
+    cursor: pointer;
+}

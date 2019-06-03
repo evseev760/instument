@@ -1,0 +1,310 @@
+#header{
+    background-color: black;
+    line-height: 100px;
+    height: 100px !important;
+}
+@media screen and (max-width: 500px){
+    #search{
+        width: 90% !important;
+    }
+}
+@media screen and (max-width: 400px){
+    #search{
+        width: 75% !important;
+    }
+}
+#search{
+    padding-left: 40px;
+    overflow: hidden;
+    
+}
+@media screen and (max-width: 1444px){
+    #container1{
+        position: absolute;
+        background-image: url(img/logo-01.svg);
+        background-size:auto 50px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        height: 100px; 
+    }
+    #cartBtn{
+        position: relative !important;
+        right: 20px !important;
+    }
+    #search{
+        width: 100%;
+        height: 50px;
+        margin-top: 25px;
+        border: 2px solid #373737;
+        background: #373737; 
+        background-repeat: no-repeat;
+        background-position: 10;
+        border-radius: 25px;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+    .head_input{
+        padding: 0 2% 0 5%
+    }
+}
+@media screen and (min-width: 1445px){
+    #container1{
+        overflow: visible;
+        background-image: url(img/logo.svg);
+        background-size:auto 50px;
+        background-position: center center;
+        background-repeat: no-repeat; 
+        height: 100px;
+    }
+    #search{
+        width: 85%;
+        height: 50px;
+        margin-top: 25px;
+        border: 2px solid #373737;
+        background: #373737; 
+        position: relative;
+        left: 90px;
+        background-repeat: no-repeat;
+        background-position: 10;
+        border-radius: 25px;
+        margin-left: 0%;
+        margin-right: 5%;
+        margin-bottom: 25px;
+        line-height: 50px;
+    }
+    .magnifier{
+        height: 45px;
+        position: relative;
+        bottom: 100px;
+        left: 90px;
+    }
+    #del_search_ico{
+        height: 20px !important;
+        position: relative;
+        bottom: 101px ;
+        left: 105px !important;
+        cursor: pointer;
+        
+    }
+}
+#katBtnOpen {
+    width: 20px ;
+    max-width: 25px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    transition: all 0.3s;
+    transform: rotate(90deg);
+    margin-left: 18px;
+}
+#katBtnClose{
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    position: absolute;
+    top: 0; left: 0; bottom: 0; right: 0;
+    transition: all 0.3s;
+    margin-left: 6px;
+}
+@media screen and (min-width: 992px){
+    #cartBtn{
+        width: 40px;
+        margin: 5px 0 0 5px
+    }
+    #cart_btn{
+        width: 70px;
+        text-align: center;
+        background:none;
+        border: none;
+        position: absolute;
+        right: 40px;
+        top: 18px
+    }
+    #comeIn{
+        height: 40px;
+        width: 100px;
+        margin-left: 20px;
+        border-radius: 25px;
+        background-color: black;
+        font-weight:100;
+        position: absolute;
+        right: 9.5vw;
+        top: 30px;
+        border: 2px solid #353535;
+    }
+    .in_basket{
+        height: 20px;
+        min-width: 20px;
+        display: inline-block !important;
+        background-color: #999999;
+        color: #373737;
+        font-size: 14px;
+        border-radius: 10px;
+        position: absolute !important;
+        right: 40px !important;
+        top: 27px;
+        line-height: normal;
+        padding: 2px 6px 0 6px;
+        
+    }
+}
+@media screen and (max-width: 991px){
+    #cartBtn{
+        position: relative;
+        left: 7px;
+        width: 35px;
+    }
+    #cart_btn{
+        padding-left: 0;
+        position: absolute !important;
+        right: 25px !important;
+        top: 26px;
+        width: 50px;
+        height: 50px;
+        background:none;
+        border: none;
+        border-radius: 25px;
+        background: none;
+    }
+    .in_basket{
+        height: 20px;
+        min-width: 20px;
+        display: inline-block !important;
+        background-color: #999999;
+        color: #373737;
+        font-size: 14px;
+        border-radius: 10px;
+        position: absolute !important;
+        right: 20px !important;
+        top: 27px;
+        line-height: normal;
+        padding: 2px 6px 0 6px;
+        
+    }
+    .key_btn {
+        height: 35px;
+        position: relative;
+        left: -5px;
+    }
+    #comeIn{
+        height: 50px;
+        width: 50px;
+        border: none; 
+        border-radius: 25px;
+        background: none;
+        font-weight:bold;
+        position: absolute;
+        top: 27px;
+        right: 80px;
+    }
+
+}
+#container2{
+    position: relative;
+    height: 100px;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    z-index: 10;
+}
+#kat_btn {
+    width: 120px;
+    color: #FFF;
+    text-align: right;
+    font-weight:100;
+    background-color: black !important;
+    border-color: black;
+    cursor: pointer;
+}
+#search::placeholder{
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+    white-space: pre;
+}
+
+.magnifier{
+    height: 45px;
+    position: relative;
+    bottom: 100px;
+}
+#del_search_ico{
+    height: 20px !important;
+    position: relative;
+    bottom: 101px ;
+    left: 15px;
+    cursor: pointer;
+    
+}
+#teleNum{
+   font-size: 18px;
+    border-color: black;
+    background-color: black;
+    color: #FFF;
+    font-weight: 100;
+    
+}
+a{
+    margin-top: 0px;
+}
+#comeIn:active{
+    opacity: 0.7 !important;
+    padding: 2px 0 0 0  !important
+}
+input {
+    display: block;
+    text-align: center;
+    color: #FFF;
+}
+input:-moz-placeholder {
+    color: #999999;
+    text-align: center;
+}
+input::-moz-placeholder {
+    color: #999999;
+    text-align: center;
+}
+input:-ms-input-placeholder {
+    color: #999999;
+    text-align: center;
+}
+input::-webkit-input-placeholder {
+    color: #999999;
+    text-align: center;
+}
+.kat_open{
+    overflow-y: hidden;
+    overflow-x: hidden;
+    height: 560px;
+    color:white;
+    transition: all 0.4s;
+    text-align: left;
+    background-color: #141414;
+}
+.kat_close{
+    height: 0px;
+    transition: all 0.4s ;
+    color: black;
+    visibility: hidden;
+    text-align: left;
+    background-color: #141414;
+    overflow:hidden;
+}
+#mose_live{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 780px;
+}
+#underline{
+    margin: 25px 0 25px 0;
+}
+#search::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease;}
+#search::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease;}
+#search:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease;}
+#search:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease;}
+#search:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease;}
+#search:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease;}
+#search:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease;}
+#search:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease;}

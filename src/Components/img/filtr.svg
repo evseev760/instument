@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="ic_filtr_24" transform="translate(-712 -246)">
+    <rect id="Rectangle_1780" data-name="Rectangle 1780" class="cls-1" width="24" height="24" transform="translate(712 246)"/>
+    <path id="Union_11" data-name="Union 11" class="cls-2" d="M-2565.95,226H-2575v-1h9.05a2.5,2.5,0,0,1,2.45-2,2.5,2.5,0,0,1,2.45,2h2.05v1h-2.05a2.5,2.5,0,0,1-2.45,2A2.5,2.5,0,0,1-2565.95,226Zm-7-5H-2575v-1h2.05a2.5,2.5,0,0,1,2.45-2,2.5,2.5,0,0,1,2.45,2h9.05v1h-9.05a2.5,2.5,0,0,1-2.45,2A2.5,2.5,0,0,1-2572.95,221Zm7-5H-2575v-1h9.05a2.5,2.5,0,0,1,2.45-2,2.5,2.5,0,0,1,2.45,2h2.05v1h-2.05a2.5,2.5,0,0,1-2.45,2A2.5,2.5,0,0,1-2565.95,216Z" transform="translate(3291 38)"/>
+  </g>
+</svg>

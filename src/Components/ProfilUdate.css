@@ -1,0 +1,50 @@
+.profil_update_table input{
+    width: 100%;
+    margin: 0px 0 15px 0;
+    background: none;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid #636363;
+    text-align: left;
+    padding: 25px 0 0 20px;
+    color: black
+}
+.profil_update_table{
+    width: 300px;
+    height: 500px;
+    position: fixed;
+    left: calc(50% - 150px);
+    top: 150px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    font-size: 15px;
+    background-color: #fff
+}
+.placeholder{
+    color: #636363
+}
+.profil_update_table .update_yes{
+    width: 125px;
+    height: 50px;
+    background-color: #26be8a !important;
+    border-radius: 25px;
+    margin: 3px;
+    opacity: 1 !important;
+}
+.profil_update_table .update_no{
+    width: 125px;
+    height: 50px;
+    background-color: #fff !important;
+    border-radius: 25px;
+    border: 1px solid #636363;
+    margin: 3px;
+    opacity: 1 !important;
+}
+.profil_update_table .group_id input{
+    text-align: left;
+    padding: 0;
+    word-wrap: break-word;
+    width: 150px;
+    color: black !important
+}
+

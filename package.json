@@ -1,0 +1,37 @@
+{
+  "name": "page",
+  "homepage": "http://instrument.kosatka.org/react/",
+  "version": "0.1.0",
+  "private": true,
+  "presets": [
+    "react-app"
+  ],
+  "dependencies": {
+    "@version/react-router-v3": "^1.0.0",
+    "ajv": "^6.5.3",
+    "axios": "^0.18.0",
+    "jquery": "^3.3.1",
+    "prerender-node": "^3.2.1",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-js-pagination": "^3.0.2",
+    "react-pdf": "^3.0.5",
+    "react-pdf-js": "^4.0.1",
+    "react-redux": "^5.0.7",
+    "react-router": "^3.2.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "react-scroll": "^1.7.10",
+    "redux": "^4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "presets": "react-app"
+  },
+  "devDependencies": {
+    "create-react-server": "^0.3.2"
+  }
+}

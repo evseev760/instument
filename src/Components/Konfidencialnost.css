@@ -1,0 +1,11 @@
+.konfidencialnost_block{
+    width: 90%;
+    margin: 0 auto 0 auto;
+    color: white;
+    overflow-y: scroll;
+}
+.konfidencialnost .authorization_bg{
+    position: fixed;
+    top: 100px;
+    left: 0;
+}

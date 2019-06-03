@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="ic_view_01" transform="translate(-1168 -464)">
+    <g id="Group_996" data-name="Group 996" transform="translate(10711 12)">
+      <rect id="Rectangle_594" data-name="Rectangle 594" width="3" height="3" transform="translate(-9534 461)"/>
+      <rect id="Rectangle_596" data-name="Rectangle 596" width="3" height="3" transform="translate(-9528 461)"/>
+      <rect id="Rectangle_599" data-name="Rectangle 599" width="3" height="3" transform="translate(-9522 461)"/>
+      <rect id="Rectangle_593" data-name="Rectangle 593" width="3" height="3" transform="translate(-9534 467)"/>
+      <rect id="Rectangle_595" data-name="Rectangle 595" width="3" height="3" transform="translate(-9528 467)"/>
+      <rect id="Rectangle_598" data-name="Rectangle 598" width="3" height="3" transform="translate(-9522 467)"/>
+      <rect id="Rectangle_592" data-name="Rectangle 592" width="3" height="3" transform="translate(-9534 473)"/>
+      <rect id="Rectangle_597" data-name="Rectangle 597" width="3" height="3" transform="translate(-9528 473)"/>
+      <rect id="Rectangle_600" data-name="Rectangle 600" width="3" height="3" transform="translate(-9522 473)"/>
+    </g>
+    <rect id="Rectangle_601" data-name="Rectangle 601" class="cls-1" width="32" height="32" transform="translate(1168 464)"/>
+  </g>
+</svg>

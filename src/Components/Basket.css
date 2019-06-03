@@ -1,0 +1,287 @@
+.basket{
+    margin: 6%; 
+}
+@media screen and (max-width: 799px){
+    .basket{
+        padding: 10px;
+    }
+}
+.basket_element button{
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    border: 0px;
+    border-radius:25px;
+}
+h3{
+    margin: 20px 0 30px 0;
+    font-weight: 300
+}
+.basket_element button img{
+    background-color: white;
+    width: 45px;
+    margin-left: -5px;
+    transition: all 0.4s;
+    border-radius: 25px;
+}
+.basket_element{
+    border: 1px solid #e5e5e5;
+    line-height: 90px;
+    text-align: center;
+    height: 120px;
+    overflow: hidden;
+}
+.name{
+    line-height: 20px;
+    padding-top: 4%;
+    text-align: center !important;
+}
+.basket_element button  :hover{
+    transition: all 0.4s;
+    -webkit-filter: invert(100%);
+    filter: invert(100%);
+    border-radius:25px; 
+    
+}
+.remove_elem{
+    display: none !important;
+}
+.basket_element input{
+    height: 40px;
+    width: 120px;
+    text-align-last: center ; 
+    text-align: center ; 
+    border: 1px solid #e4e4e4;
+    border-radius: 40px;
+    background-color: white;
+    /* background-image: url(img/narrow_down_black.svg);	 */
+    background-repeat: no-repeat;	
+    background-position: right;
+    padding-left: 10px;
+    padding-right:30px; 
+    font-weight: 200;
+    color: black;
+    display: inline;
+}
+.navigation :hover{
+    color:#7b7b7b
+}
+.basket_img_cont{
+    margin: 0;
+    padding: 0
+}
+.navigation a{
+    color: #7b7b7b;
+}
+.navigation{
+    color:#7b7b7b;
+    font-weight: 200
+}
+.basket_img{
+    background-color: #f1f1f1;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    padding: 0;
+}
+.basket_head{
+    text-align: center;
+    color: #7b7b7b;
+    font-weight: 200;
+    margin-bottom: 15px;
+}
+.name div{
+    color: black
+}
+@media screen and (min-width: 800px)and (max-width: 1199px){
+    .totals{
+        text-align: center;
+        border: 3px solid rgba(0, 0, 0, 0.1);
+        
+        padding-top: 30px 
+    }
+    .totals div{
+        font-size: 14px;
+        font-weight: 200;
+        width: 100%;
+    }
+    .total_button{
+        padding-top: 20px;
+        margin-bottom: 50px
+    }
+    
+}
+@media screen and (max-width: 799px){
+    .name div {
+        font-size: 15px;
+    }
+    .name span {
+        font-size: 13px;
+    }
+    .totals{
+        text-align: center;
+        border: 3px solid rgba(0, 0, 0, 0.1);
+        height: 330px;
+        padding-top: 50px;
+        width: 97%;
+        position: relative;
+        left: 21px;
+    }
+    .totals div{
+    font-size: 14px;
+    font-weight: 200;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    }
+    .total_button{
+        margin-bottom: 70px;
+    }
+    .name div{
+        line-height: 18px
+    }
+    .basket_element input{
+        width: 70px;
+        height: 30px;
+        padding: 0
+
+    }
+    .basket_element button img{
+        height: 30px;
+        position: relative;
+        right: 10px;
+    }
+    .basket_element button{
+        height: 30px;
+        line-height: normal;
+        width: 30px;
+    }
+    .name span{
+        display:none
+    }
+}
+@media screen and (max-width: 767px){
+    .string{
+        line-height: 40px;
+    }
+    .basket{
+        margin: 0; 
+    }
+    .basket .col-xl-9{
+        margin: 0;
+    }
+}
+@media screen and (min-width: 1200px){
+    .totals{
+        text-align: center;
+        border: 3px solid rgba(0, 0, 0, 0.1);
+        height: 330px;
+        padding-top: 50px;
+        max-width: 300px;
+    }
+    .totals div{
+    font-size: 14px;
+    font-weight: 200;
+    margin: 10px 0 10px 0;
+    width: 100%;
+    }
+}
+.string input{
+    line-height: 40px
+}
+option{
+    color:#fff;
+    background:#369;
+  }
+.totals button{
+    background-color: black;
+    color: white;
+    border-radius: 40px;
+    height: 55px;
+    width: 200px;
+    border: 0;
+    margin: auto;
+}
+.totals span{
+    font-size: 40px;
+    font-weight: 300;
+}
+.total_button button:active{
+    opacity: 0.9;
+    padding-top: 3px
+}
+.pdf_score iframe{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+.pdf_score {
+    position: absolute;
+    top: 100px;
+    left: 0;
+    width: 100vw !important;
+    height: calc(100vh - 100px);
+    overflow: hidden;
+    background-color: #fff
+}
+.pdf_score div {
+    position: absolute;
+    bottom: 10px;
+    left: calc(50% - 150px);
+    width: 300px;
+}
+.pdf_score button{
+    color: #fff;
+    background-color: #000;
+    opacity: 0.7;
+    border-radius: 8px;
+    height: 30px;
+}
+.cssload-container {
+	width: 31px !important;
+	height: 31px !important;
+    text-align: center;
+    text-align: center;
+    position: absolute;
+    bottom: 32px;
+}
+.in_catalog_btn{
+    cursor: pointer;
+}
+.in_catalog_btn:active{
+    opacity: 0.8;
+}
+.cssload-zenith {
+	width: 31px;
+	height: 31px;
+	margin: 0 auto;
+	border-radius: 50%;
+	border-top-color: transparent;
+	border-left-color: transparent;
+	border-right-color: transparent;
+	box-shadow: 2px 2px 1px rgb(255,255,255);
+	animation: cssload-spin 1050ms infinite linear;
+		-o-animation: cssload-spin 1050ms infinite linear;
+		-ms-animation: cssload-spin 1050ms infinite linear;
+		-webkit-animation: cssload-spin 1050ms infinite linear;
+		-moz-animation: cssload-spin 1050ms infinite linear;
+}
+.shoppingcart{
+    margin: 0 auto 0 auto;
+    font-size: 30px;
+}
+@keyframes cssload-spin {
+	100%{ transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-o-keyframes cssload-spin {
+	100%{ -o-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-ms-keyframes cssload-spin {
+	100%{ -ms-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-webkit-keyframes cssload-spin {
+	100%{ -webkit-transform: rotate(360deg); transform: rotate(360deg); }
+}
+@-moz-keyframes cssload-spin {
+	100%{ -moz-transform: rotate(360deg); transform: rotate(360deg); }
+}

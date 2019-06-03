@@ -1,0 +1,238 @@
+#cabinet_container{
+    position: relative !important;
+    top: 20px;
+    left: 20px;
+}
+#cabinet_table hr{
+    margin: 0 !important
+}
+h1{
+    font-weight: 200;
+    color: #1a1a1a;
+    text-transform: capitalize;
+}
+.is_choose_employees{
+    float: left;
+    color: #26be8a !important;
+    border: none;
+    border-bottom: 4px solid #26be8a !important;
+    height: 50px;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+.no_choose_employees{
+    float: left;
+    background: none;
+    color: #8a8a8a;
+    border: none;
+    height: 50px;
+    font-size: 20px;
+    transition: all 0.2s;
+}
+#cabinet_table{
+    width: calc(94vw - 250px);
+    height: calc(100vh - 130px);
+    margin: 15px;
+    float: left;
+    transition: all 0.5s;
+    padding: 15px;
+}
+.add_employee{
+    text-align: right;
+    font-weight: 200;
+    font-size: 14px;
+    color: #000000;
+    opacity: 0.5;
+    line-height: 44px
+}
+.cabinet_table_caption img{
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    height: 32px; 
+}
+.cabinet_table_caption button{
+    background: none;
+    border: none;
+    width: 220px !important;
+    position: absolute;
+    right: 60px;
+}
+#cabinet_table h2{
+    text-transform: capitalize;
+    font-size: 24px
+}
+.more_width #cabinet_table{
+    width: 94vw !important;
+    transition: all 0.5s;
+    margin: 15px !important;
+}
+hr{
+    border: none; 
+    color: #8a8a8a; 
+    background-color: #e0e0e0; 
+    height: 2px
+}
+h2{
+    color: #1a1a1a;
+    font-weight: 100;
+    font-size: 25px;
+    margin-top: 6px
+}
+.employee{
+    height: 75px;
+    border: 1px solid #e7e7e7;
+    margin-top: -1px;
+    overflow: hidden;
+    width: 101%;
+    transition: all 0.5s;
+}
+.more_width .employee{
+    width: 101%;
+    transition: all 0.5s;
+}
+.employee button{
+    width: 30px;
+    position: relative;
+    cursor: pointer;
+    background: none;
+    border: none;
+    z-index: 45;
+}
+.employee div{
+    padding: 2px;
+    white-space: normal;
+}
+.employee div{
+   margin: auto 0 auto 0 !important
+}
+.employee div span{
+    color: #8a8a8a;
+    font-weight: 100
+}
+.employee img{
+    width: 30px;
+    position: relative;
+    right: 7px;
+    z-index: 44;
+}
+.employee .col-1{
+    text-align: center  
+}
+.employee_caption{
+    height: 40px;
+    border: none;
+    font-size: 12px !important;
+}
+.employee a {
+    color: #42c699;
+    font-weight: 100
+}
+.employee .name_employee{
+    position: relative;
+    left: 15px;
+    font-size: 13px;
+}
+.tel_employee{
+    font-size: 14px !important;
+}
+@media screen and  (max-width: 1200px){
+    #cabinet_table .in_table{
+        min-width: 440px;
+    }
+    #cabinet_table{
+        overflow-x: scroll !important;
+    }    
+}
+.add_employee button{
+    cursor:  pointer;
+}
+@media screen and  (max-width: 100px){
+    #cabinet_table{
+        width: calc(100vw - 250px) !important;
+        height: calc(100vh - 190px);
+        background-color: #f1f1f1;
+        margin: 0 !important;
+        position: absolute;
+        top: 90px;
+        left: 0;
+        transition: all 0.5s;
+        padding: 15px;
+    }
+    .more_width #cabinet_table{
+        width: 100vw !important;
+        transition: all 0.5s;
+        margin: 0 !important;
+    }
+    .more_width button{
+        opacity: 1 !important;
+        transition: opacity 0.4s;
+        position: relative;
+        right: 0px;
+        position: relative;
+        left: 0 !important; 
+    }
+    .more_width h1{
+        opacity: 1;
+        transition: opacity 0.4s;
+        text-transform: capitalize;
+    }
+    #cabinet_container{
+        position: relative;
+        top: 2px;
+        left: 2px;
+    }
+    h1{
+        font-weight: 200;
+        color: #1a1a1a;
+        font-size: 25px !important;
+        opacity: 0;
+        transition: opacity 0.4s;
+        text-transform: capitalize;
+    }
+    h2{
+        font-size: 19px !important;
+    }
+    #cabinet_container button{
+        font-size: 16px !important;
+        padding: 1px 6px 1px 6px !important;
+        opacity: 0;
+        transition: all 0.4s;
+        position: relative;
+        left: 45px;
+    }
+}
+@media screen and  (max-width: 930px){
+    .more_width{
+        margin-left: 0px !important;
+    }
+    .more_width #cabinet_table{
+        margin: 0 20px 0 0 !important;
+        padding: 0 ;
+        opacity: 1;
+        transition: all 0.2s;
+        
+    }
+    #cabinet_table{
+        opacity: 0;
+        transition: all 0.2s;
+        overflow-x: scroll  !important;
+        white-space:nowrap !important;
+    }
+    .more_width{
+        position: relative;
+        width: calc(100vw - 70px) !important;
+        left: 60px !important;
+    }
+    .employee div span{
+        color: #8a8a8a;
+        font-size: 12px;
+        font-weight: 100
+    }
+    .employee .name_employee span{
+        font-size: 12px;
+    }
+    .tel_employee{
+        font-size: 14px !important;
+    }
+}

@@ -1,0 +1,119 @@
+.product_head{
+    text-align: center;
+    padding: 25px 5% 1% 5%;
+    background-color: #141414;
+}
+.product_head h2{
+    color: white;
+    font-weight: 300;
+}
+.product_head h2 :hover{
+    color: white !important;
+    font-weight: 300;
+}
+a{
+    color: #7b7b7b
+}
+.product_head div{
+    color: #7b7b7b;
+    font-weight: 200;
+}
+.product_head button{
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    border-radius: 25px;
+    border: 1px solid #373737;
+    background-color: #141414;
+    margin : 0px 0 20px 0;
+    
+}
+.no_active{
+    border: 1px solid #373737 !important
+}
+@media  (max-width: 850px){
+    .fixed {
+        transition: all 0.2s;
+        position: fixed;
+        bottom: -20px;
+        left: -5%;
+        height: 45px !important;
+        padding-bottom: 20px;
+        z-index: 100;
+        background-color: #373737 !important;
+        width: 110% !important;
+        
+      }
+}
+@media  (min-width: 851px){
+.fixed {
+    transition: all 0.2s;
+    position: fixed !important;
+    top: 0 !important;
+    left: calc(50% - 75px);
+    height: 45px !important;
+    margin: 0 !important;
+    z-index: 200;
+    background-color: #373737 !important
+  }
+}
+.product_head img{
+height: 35px;
+}
+.product_head div  :hover {
+    color: #7b7b7b;
+}
+
+.filtr_open{
+    display: block;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 300px;
+    color:white;
+    transition: all 0.2s;
+    text-align: left;
+    background-color: #141414;
+    clear: both;
+    
+}
+.filtr_open::-webkit-scrollbar
+{
+    width: 20px !important;
+}
+.filtr_open::-webkit-scrollbar-track
+{
+    background-color: #252525;
+    border-radius: 10px;
+}
+.filtr_open::-webkit-scrollbar-thumb {
+    background-color: #484848;
+    border-radius: 10px;
+}
+.filtr_close{
+    height: 0px;
+    transition: all 0.1s ;
+    color: black;
+    visibility: hidden;
+    text-align: left;
+    background-color: #141414;
+    overflow:hidden;
+}
+.filtr{
+    height: 100px;
+    padding: 15px 5% 15px 5% ;
+}
+
+.name{
+    color: #7b7b7b;
+}
+.value{
+    color: #7b7b7b;
+    margin: 1px 5px 1px 5px;
+    padding: 3px 7px 3px 7px;
+    border: 1px solid #373737;
+    border-radius: 5px;
+    background-color: #141414;
+}
+.active_flt{
+    background-color: #373737;
+}

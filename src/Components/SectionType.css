@@ -1,0 +1,26 @@
+
+.contSec div{
+    color: white;
+    font-size: 18px;
+    font-weight: 300
+}
+.contSec img{
+    height: 100px;
+   
+}
+.contSec  :hover img{
+    text-decoration: none;
+    
+}
+.contSec{
+    margin: 100px auto 80px auto;
+}
+#filterSec{
+    height: 300px;
+}
+@media screen and (max-width: 600px){
+
+    .contSec{
+        margin: 10px auto 8px auto;
+    }
+}

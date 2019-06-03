@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="menu_kat" transform="translate(-256 -20)">
+    <g id="Group_1571" data-name="Group 1571" transform="translate(9700 -424)">
+      <rect id="Rectangle_589" data-name="Rectangle 589" class="cls-1" width="28" height="2" transform="translate(-9434 462)"/>
+      <rect id="Rectangle_590" data-name="Rectangle 590" class="cls-1" width="28" height="2" transform="translate(-9434 467)"/>
+      <rect id="Rectangle_591" data-name="Rectangle 591" class="cls-1" width="28" height="2" transform="translate(-9434 472)"/>
+    </g>
+    <rect id="Rectangle_1776" data-name="Rectangle 1776" class="cls-2" width="48" height="48" transform="translate(256 20)"/>
+  </g>
+</svg>

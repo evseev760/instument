@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.6;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="narrow_down_black" transform="translate(-890 -710)">
+    <g id="narrow_down_black-2" data-name="narrow_down_black" class="cls-1">
+      <g id="Group_1528" data-name="Group 1528" transform="translate(1696.738 468.927) rotate(135)">
+        <rect id="Rectangle_391" data-name="Rectangle 391" width="7" height="1" transform="translate(743 382) rotate(180)"/>
+        <rect id="Rectangle_392" data-name="Rectangle 392" width="7" height="1" transform="translate(743 381) rotate(90)"/>
+      </g>
+      <rect id="Rectangle_1785" data-name="Rectangle 1785" class="cls-2" width="24" height="24" transform="translate(890 710)"/>
+    </g>
+  </g>
+</svg>

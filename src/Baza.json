@@ -1,0 +1,342 @@
+
+{
+  "section": [
+    {
+      "secName": "Металлорежущий  инструмент",
+      "secImg": "/static/media/ico03.16022307.svg",
+      "type": []
+    },
+    {
+      "secName": "Измерительный  инструмент",
+      "secImg": "/static/media/ico02.e8f245d6.svg",
+      "type": [
+        {
+          "typeName": "Штангенциркули",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": [
+            {
+              "id": "0000",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0001",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0002",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0003",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0004",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0005",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0006",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0007",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0008",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0009",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0010",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0011",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0012",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0013",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0014",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0015",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0016",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0017",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0018",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0019",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0020",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0021",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0022",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0023",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            },
+            {
+              "id": "0024",
+              "name": "Штангенциркуль Шц 1-125 0ю05 СтИЗ",
+              "made": "Калиброн",
+              "code": "441447.ГОСТ 345467",
+              "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png"
+            }
+          ]
+        },
+        {
+          "typeName": "Калибры",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Линейкиизмерительные и поверочные",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Концевыемеры длины",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Рулетки",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Микрометры",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Нутромерыиндикаторные и микрометрические",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Призмыи плиты поверочные",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Провлочкии ролки для измерения среднего диаметра",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Головкии индикаторы",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Скобыс отсчетным устройством",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Стойкии штативы для измерительных головок",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Угломерыс нониусом",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Угольникиповерочные, уровни рамные и брусковые",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Глубиномерымикрометрические",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Циркулии кронциркули",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Штангенглубинометрыи штангенрейсмасы",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Толщиномерыи стенкомеры, штангензубомеры",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Лупы",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Образцышероховатости",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "ПластиныПИ и ПМ",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        },
+        {
+          "typeName": "Шаблоны",
+          "img":"https://www.korely.ru/upload/iblock/974/974cc3df9e8257161b53daccb4a701ce.png",
+          "product": []
+        }
+      ]
+    },
+    {
+      "secName": "Слесарно-монтажный инструмент",
+      "secImg": "/static/media/ico03.16022307.svg",
+      "type": []
+    },
+    {
+      "secName": "Станочные принадлежности и оснастка",
+      "secImg": "/static/media/ico04.7e6e61fc.svg",
+      "type": []
+    },
+    {
+      "secName": "Абразивный инструмент",
+      "secImg": "/static/media/ico05.93da5975.svg",
+      "type": []
+    },
+    {
+      "secName": "Алмазный инструмент",
+      "secImg": "/static/media/ico06.a01837d3.svg",
+      "type": []
+    },
+    {
+      "secName": "Электроинструмент",
+      "secImg": "/static/media/ico07.d02bcb27.svg",
+      "type": []
+    },
+    {
+      "secName": "Сварочное оборудование и паяльные принадлежности",
+      "secImg": "/static/media/ico08.ec9efdbf.svg",
+      "type": []
+    },
+    {
+      "secName": "Пневмоинструмент",
+      "secImg": "/static/media/ico09.aa4a8cc7.svg",
+      "type": []
+    },
+    {
+      "secName": "Прочий инструмент",
+      "secImg": "/static/media/ico10.86182cfc.svg",
+      "type": []
+    }
+  ]
+}

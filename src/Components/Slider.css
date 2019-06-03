@@ -1,0 +1,36 @@
+
+.slick-prev:before {
+    color: #b0b0b0 !important;
+    font-size: 30px !important;
+    margin-right: 15px;
+}
+.slick-slide img {
+    display:inline-block !important;
+}	
+.slider_element{
+    margin-bottom: 50px
+}
+.slick-next:before {
+color: #b0b0b0 !important;
+font-size: 30px !important;
+}
+.slick-prev{
+    left: -35px !important;
+}
+.slider div{
+    width: 99.8%;
+}
+@media screen and  (max-width: 806px){
+    .slider div{
+        font-size: 13px;
+    }
+    .slider button {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 900px){
+    .slider{
+        margin-left: -4%;
+        width: 109% !important;
+    }
+}

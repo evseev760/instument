@@ -1,0 +1,147 @@
+#cabinet_container{
+    position: absolute;
+    left: 0;
+    top: 100;
+    overflow-x: hidden;
+    width: 100%;
+    margin-left: 250px;
+    transition: all 0.5s; 
+}
+.more_width{
+    margin-left: 20px !important;
+    transition: all 0.5s;
+    position: relative;
+}
+body{
+    overflow: hidden;
+}
+
+#left_bar_container{
+    float: left;
+    position: fixed;
+}
+.in_line{
+    white-space: nowrap;
+}
+#left_bar{
+    width: 250px;
+    height: calc(100vh - 100px);
+    background-color: #1a1a1a;
+    
+}
+#log_out{
+    padding-left: 75px
+}
+.client_logo{
+    height: 300;
+    width: 100%;
+    text-align: center;
+}
+.client_logo img{
+    width: 100px;
+    position: relative;
+    top: 40px;
+}
+.client_logo span{
+    position: relative;
+    top: 50px;
+    color: white;
+    white-space: normal;
+    max-width: 250px !important;
+}
+.dell_foot{
+    display: none;
+}
+.bar_elements{
+    position: relative;
+    top: 60px;
+    cursor: pointer;
+}
+.bar_elements img{
+    width: 24px;
+    height: 24px;
+    position: relative;
+    top: -2px;
+    right: 14px;
+}
+.bar_elements div{
+    transition: all 0.3s;
+    line-height: 75px;
+    color: #8a8a8a;
+    padding-left: 50px;
+    font-weight: 500;
+}
+.selected_item{
+    transition: all 0.3s; 
+    background-color: #000;
+    border-left: 3px solid #26be8a; 
+}
+#bar_hide button{
+    position: relative !important;
+    bottom: 10px;
+}
+#bar_hide button img{
+    height: 24px;
+}
+.bar_open_btn{
+    position: absolute;
+    right: 10px;
+    
+    transition: all 0.5s;
+    transform: rotate(180deg);
+}
+.bar_close_btn{
+    position: absolute;
+    right: 10px;
+    
+    transition: all 0.5s;
+    margin-right: -50px;
+    color: #000 !important;
+    
+}
+.bar_hide_open{
+    position: fixed;
+    bottom: 0px;
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0);
+    width: 250px;
+    height: 30px;
+}
+.bar_hide_open button{
+    float: right;
+    color: aqua;
+    background: none;
+    border: none;
+    font-size: 25px;
+    z-index: 100;
+}
+.bar_close, .bar_hide_close{
+    margin-left: -250px !important;
+    transition: all 0.5s;
+}
+.bar_open{
+    width: 250px;
+    transition: all 0.5s;
+    
+}
+@media screen and  (max-width: 1000px){
+    .bar_elements div{
+        height: 45px;
+        line-height: 45px;
+    }
+}
+@media screen and  (max-width: 500px){
+    .bar_close{
+        
+        margin-left: -200px !important;
+    }
+    .bar_close .bar_elements{
+        overflow: hidden;
+        margin-left: 175px !important;
+    }
+    .bar_close .client_logo{
+        transition: all 0.5s;
+        height: 0px !important;
+        overflow: hidden;
+    }
+}

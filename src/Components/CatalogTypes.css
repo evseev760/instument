@@ -1,0 +1,71 @@
+@media screen and (max-width: 618px){
+    .element{
+        background-color: #141414;
+        transition: all 0.3s;
+        font-size: 14px !important;
+        font-weight: 300;
+    }
+}
+.element{
+    background-color: #141414;
+    transition: all 0.3s;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.element div{
+    line-height: 25px;
+}
+.type_name{
+    padding-top: 7px;
+    height: 60px;
+    color: #FFFFFF;
+    opacity: 0.5;
+    font-size: 15px;
+}
+.type_name:hover{
+    padding-top: 7px;
+    height: 60px;
+    color: #FFFFFF !important;
+    opacity: 0.5;
+}
+.element img{
+    width: 100%;
+    background-color: #252525;
+}
+.quantity{
+    width: 100px;
+    line-height: 50px;
+    float: right;
+    text-align: center;
+    background-color: #373737;
+    font-size: 16px;
+    font-weight: 200;
+    position: absolute !important; 
+    top: 15px; 
+    right: 15px; 
+    color: #FFFFFF;
+    opacity: 0.5;
+}
+.contaner_type{
+    padding-top: 50px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #141414;
+}
+
+.type_container :hover{
+    text-decoration: none;
+    color: #7f7f7f; 
+    background-color: #373738;
+    transition: all 0.3s;
+}
+.element :hover .quantity{
+    position: absolute !important; 
+    top: 15px; 
+    right: 0px; 
+    transition: all 0.3s
+}
+a{
+    color: #7f7f7f; 
+}

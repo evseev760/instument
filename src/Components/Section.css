@@ -1,0 +1,108 @@
+@media screen and (min-width: 1486px){
+    .section{
+        width: 20vw;
+        height: 20vw;
+        vertical-align: middle;
+        color: #8f8f8f;
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+    }
+    .cont{
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 20px;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+        font-weight: 200;
+    }
+}
+@media screen and (min-width: 1105px)and (max-width: 1485px){
+    .section{
+        width: 20vw;
+        height: 20vw;
+        vertical-align: middle;
+        color: #8f8f8f;
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+    }
+    .cont{
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 15px;
+        padding-top: 6vw;
+        padding-bottom: 6vw;
+    }
+}
+@media screen and (max-width: 618px){
+    .section{
+        width: 33.1vw;
+        height: 33vw;
+        vertical-align: middle;
+        color: #8f8f8f;
+        text-align: center;
+        display: inline-block;
+        padding: 0;
+        font-size: 10px;
+        margin: 0 auto;
+    }
+    .section img{
+        height: 50px !important;
+    }
+    .cont{
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 11px;
+        padding-top: 14%;
+        padding-bottom: 6vw;
+        overflow: hidden;
+        text-overflow: ellipsis; 
+    }
+}
+@media screen and (min-width: 619px) and (max-width: 1104px){
+    .section{
+        width: 33vw;
+        height: 33vw;
+        vertical-align: middle;
+        color: #8f8f8f;
+        text-align: center;
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .cont{
+        height: 100%;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 15px;
+        padding-top: 10vw;
+        padding-bottom: 6vw;
+    }
+}
+.section :hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    text-decoration: none;
+}
+.section :hover img{
+    background-color: white;
+    /* -webkit-filter: invert(100%);
+    filter: invert(100%); */
+}
+.cont :hover{
+    background-color: rgb(255, 255, 255);
+}
+.section img{
+    height: 5vmax;
+    display: inline-block;
+}
+.cont div{
+    height: 40px;
+    padding: 5%;
+}
+a{
+    color: #8f8f8f;
+}

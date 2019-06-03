@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  scrollbar-track-color: #000
+}
+
+button c, button:focus {
+  outline: none;
+  border: 0;
+}
+button::-moz-focus-inner {
+  border: 0;
+  outline: none;
+}
+select:active, select:focus {
+  outline: none;
+}
+select::-moz-focus-inner {
+  border: 0;
+}
+input:active, input:focus {
+  outline: none;
+}
+input::-moz-focus-inner {
+  border: 0;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+  scroll-behavior: smooth; 
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Regular', sans-serif;
+}
+button{
+  margin-bottom: 3px;
+}
+@viewport {
+  user-zoom: fixed;
+}
+.btns:focus,.btns:active:focus,.btns.active:focus,
+.btns.focus,.btns:active.focus,.btns.active.focus {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+    
+    
+}
+.btns {
+  cursor: pointer;
+  transition: none !important;
+  padding-top: 2px;
+  opacity: 0.8;
+  max-height: 54px;
+  transition: height 0.4s !important
+}
+.btnse{
+  cursor: pointer;
+    background-color: rgba(0, 0, 0, 1) !important;
+    padding-top: 0px !important;
+}
+.btnse:hover{
+  color: #fff !important
+}
+.btns:hover{
+  color: #fff !important
+}
+.hide{
+  display: none
+}
+#content{
+  min-height: 85vh;
+}
+@-moz-document url-prefix() {
+  #footer{
+    width: 102%;
+  }
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+/* Для Firefox */
+input[type=number]{
+  -moz-appearance: textfield;
+}
+input::-ms-clear {
+  display: none;
+}

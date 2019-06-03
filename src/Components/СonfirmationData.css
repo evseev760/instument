@@ -1,0 +1,55 @@
+
+.confirmation_container {
+    height: 180vh;
+}
+.confirmation_container .navigation{
+    position: relative;
+    left: 10px;
+    top: 50px;
+}
+.confirmation_container .next_btn{
+    width: 200px;
+}
+.confirmation_container .next_btn:active{
+    opacity: 0.8 !important;
+}
+@media screen and (max-width: 767px){
+    .confirmation_data{
+        width: 320px !important;
+        left: calc(50% - 160px) !important; 
+        top: 100px;
+        text-align: center;
+        position: relative;
+    }
+}
+.confirmation_data{
+    width: 480px;
+    left: calc(50% - 240px); 
+    top: 100px;
+    text-align: center;
+    position: relative;
+}
+.confirmation_data h2{
+    font-weight: 500
+}
+.confirmation_data h4{
+    padding-right: 25px
+}
+.confirmation_data input{
+    width: 90%;
+    margin: 0px auto 15px auto;
+    background: none;
+    height: 60px;
+    border-radius: 6px;
+    border: 1px solid #636363;
+    text-align: left;
+    padding: 25px 0 0 20px; 
+    color: black  
+}
+.placeholder{
+    height: 0px !important;
+    display: flex;
+    position: relative;
+    top: 10px;
+    left: 10%;
+}
