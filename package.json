@@ -9,7 +9,7 @@
   "dependencies": {
     "@version/react-router-v3": "^1.0.0",
     "ajv": "^6.5.3",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "jquery": "^3.3.1",
     "prerender-node": "^3.2.1",
     "react": "^16.4.2",
